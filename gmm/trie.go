@@ -1,6 +1,8 @@
 package gmm
 
-import "strings"
+import (
+	"strings"
+)
 
 type node struct {
 	pattern  string  // 待匹配的路由， 例如 /a/:name
